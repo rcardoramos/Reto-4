@@ -1,0 +1,27 @@
+@import './modules/variables.css';
+@import './modules/utils.css';
+@import './modules/header.css';
+@import './modules/animations.css';
+@import './modules/nav.css';
+@import './modules/layout.css';
+@import './modules/list.css';
+@import './modules/card.css';
+@import './modules/buttons.css';
+@import './modules/hero.css';
+
+
+.body {
+    background-color: var(--primary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    margin: 0;
+}
+
+.body--light {
+    --primary-theme-color: #fff;
+    --secondary-theme-color: #eee;
+    --primary-text-color: #000;
+    --secondary-text-color: #777;
+    --primary-shadow-color: #00000080;
+    --secondary-shadow-color: #00000040;
+}
